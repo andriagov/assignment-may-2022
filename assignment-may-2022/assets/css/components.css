@@ -1,0 +1,215 @@
+/* navigation bar css here  */
+
+header {
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 179),
+    rgb(255, 165, 0)
+  );
+}
+
+.navigation {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search,
+.search__icon {
+  border: none;
+  outline: none;
+  height: 30px;
+}
+.search {
+  border-radius: 5px;
+  padding-left: 10px;
+  box-shadow: inset 0 1px 5px rgb(0 0 0 / 0.1);
+}
+
+.search__icon {
+  width: 30px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.search__icon:active {
+  box-shadow: inset 0 1px 5px rgb(0 0 0 / 0.2);
+}
+
+ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* line under on hover */
+ .navigation__links::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 3px;
+  bottom: 1px;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: all 500ms ease;
+}
+
+.navigation__links:hover:before {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 3px;
+  bottom: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* triangle pointer on hover 
+
+.navigation__links::before {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid rgb(255, 255, 255);
+  transition: all 500ms ease;
+}
+
+.navigation__links:hover:before {
+  position: absolute;
+  content: '';
+  width: 0; 
+  height: 0; 
+  bottom: -5px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid rgb(255, 255, 255);
+} */
+
+/* end navigation css */
+
+/* javascript assignment css here */
+
+.js-form {
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);
+}
+
+.js-form input,
+.js-form label,
+.js-add {
+  display: block;
+  width: 100%;
+}
+
+.js-form label {
+  margin: 10px 0px;
+}
+
+.js-form input {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 5px rgb(0 0 0 / 0.2);
+}
+
+
+.js-form input[type="text"]:focus,
+.js-form input[type="date"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 0, 179, 0.5);
+}
+
+
+.js-add {
+  height: 40px;
+  margin: 40px 0px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, hsl(39, 100%, 50%), hsl(318, 100%, 50%));
+}
+
+.js-add:hover {
+  background: linear-gradient(to right, hsl(39, 100%, 55%), hsl(318, 100%, 55%));
+}
+
+.js-add:active {
+  background: linear-gradient(to right, hsl(39, 100%, 47%), hsl(318, 100%, 47%));
+  box-shadow: inset 0 5px 10px rgb(0 0 0 / 0.2);
+}
+
+.list-items {
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  border-radius: 5px;
+  background-color: rgb(255, 0, 179);
+}
+
+.footer {
+  padding: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 0, 179),
+    rgb(255, 165, 0)
+  );
+  display: flex;
+  justify-content: end;
+}
+
+
+/* checklist */
+
+.assignment {
+  padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);
+  padding: 20px;
+  width: 80%;
+}
+
+.assignment li {
+  list-style: none;
+}
+
+.assignment input {
+  margin-right: 20px;
+  accent-color: rgb(255, 0, 179);
+}
+
+
+img {
+  width: 100%;
+  height: 100%;
+object-fit: cover;
+}

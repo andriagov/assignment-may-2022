@@ -1,0 +1,21 @@
+body,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.js-add {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+ul li a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  h1 {
+      text-align: center;
+      margin: 30px;
+  }

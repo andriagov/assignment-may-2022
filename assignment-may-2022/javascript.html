@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript assignment</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/favicons/favicon.png">
+    <script src="https://kit.fontawesome.com/bac75658d0.js" crossorigin="anonymous"></script>
+    <script src="./assets/main.js" defer></script>
+  </head>
+
+
+  <body>
+    <header>
+ 
+      <nav class="navbar">
+        <ul class="navbar__icons">
+          <li><a href="./index.html" class="navigation"><i class="fa-solid fa-house"></i></a></li>
+          <li><a href="./html.html" class="navigation"><i class="fa-solid fa-list-check"></i></a></li>
+          <li><a href="./javascript.html" class="navigation"><i class="fa-brands fa-js"></i></a></li>
+        </ul>
+        <ul class="navbar__links">
+          <li><a href="./index.html" class="navigation navigation__links">home</a></li>
+          <li>
+            <a href="./html.html" class="navigation navigation__links"
+              >assignment one</a
+            >
+          </li>
+          <li><a href="./javascript.html" class="navigation navigation__links">assignment two</a></li>
+        </ul>
+       <div class="search-bar">
+        <input class="search" type="search" name="search" id="search" placeholder="search"> 
+        <button class="search__icon" onclick="">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button></div>
+      </nav>
+   
+  </header>
+  <main>
+    <h1>Javascript Assignment</h1>
+    <div class="js-container">
+      <form action="#" class="js-form">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name here"
+          value=""
+          data-name
+        />
+        <label for="date">Today's date</label>
+        <input
+          type="date"
+          name="date"
+          id="date"
+
+          value=""
+          data-date
+        />
+        <button 
+        class="js-add"
+        name="data" 
+        type="button" 
+        onclick="printValues()"
+        data-button>Add</button>
+        <ul id="output" data-output></ul>
+      </form>
+  
+    </div></main>
+    <footer>
+      <div class="footer">
+        <nav>
+          <ul>
+            <li><a href="tel:+12345678" class="navigation navigation__icons"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="mailto:emailaddress@gmail.com" class="navigation navigation__icons"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#navbar" class="navigation navigation__icons"><i class="fa-solid fa-up"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
