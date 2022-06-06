@@ -112,6 +112,7 @@ ul li a:visited {
 /* javascript assignment css here */
 
 .js-form {
+  -webkit-appearance: none;
   margin: 0 auto;
   padding: 20px;
   width: 50%;
@@ -122,6 +123,7 @@ ul li a:visited {
 .js-form input,
 .js-form label,
 .js-add {
+  -webkit-appearance: none;
   display: block;
   width: 100%;
 }
@@ -131,6 +133,7 @@ ul li a:visited {
 }
 
 .js-form input {
+  -webkit-appearance: none;
   height: 40px;
   padding: 10px;
   border: none;
@@ -143,6 +146,7 @@ ul li a:visited {
 .js-form input[type="date"]:focus {
   outline: none;
   box-shadow: 0 0 10px rgba(255, 0, 179, 0.5);
+  background-color: rgb(255, 255, 255);
 }
 
 
