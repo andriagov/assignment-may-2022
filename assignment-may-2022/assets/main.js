@@ -2,13 +2,13 @@
 
 
 function printValues() {
-    // assign values
+    // gets the values the user has entered in the inputs
     const name = document.querySelector('[data-name]').value
     const date = document.querySelector('[data-date]').value
-    // add list item to ul element
+    // finds the list and creates a list element
     const ul = document.querySelector('[data-output]')
     const li = document.createElement('li')
-    // assign class to list items 
+    // assign class to list items so css styling applies
     li.classList.add('list-items');
     // list item will contain texting saying "(name entered) was here on (date entered)"
     li.textContent = name + ' was here on ' + date
